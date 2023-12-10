@@ -59,10 +59,10 @@ body {
     text-align: left;
   }  
 
-  ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
+f  ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   h1 {
