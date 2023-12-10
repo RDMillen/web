@@ -37,7 +37,7 @@ body {
     margin-top: 1em;
   }
 
-  .bio, .contact, header {
+  .bio, .contact, .blogpost, header {
     width: 100%; 
   }
 
@@ -49,6 +49,15 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
+
+  .blogpost {
+    background-color: #3c3836;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }  
 
   ul.no-bullets {
     list-style-type: none; /* Remove bullets */
@@ -87,3 +96,31 @@ body {
   .material-icons {
     vertical-align: middle;
   }
+
+  #navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+    list-style-type: none; 
+    text-align: center; 
+    background-color: #3c3836; 
+    border-radius: 8px;
+    } 
+   
+  #navbar ul li {  
+    display: inline; 
+    border-radius: 8px;
+    } 
+   
+  #navbar ul li a { 
+    text-decoration: none; 
+    padding: .2em 1em; 
+    color: #83a598; 
+    background-color: #3c3836; 
+    border-radius: 8px;
+    } 
+   
+  #navbar ul li a:hover { 
+    color: #fe8019; 
+    background-color: #fbf1c7; 
+    border-radius: 8px;
+    } 
