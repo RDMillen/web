@@ -59,7 +59,7 @@ body {
     text-align: left;
   }  
 
-f  ul.no-bullets {
+  ul.no-bullets {
     list-style-type: none;
     padding: 0;
     margin: 0;
