@@ -59,6 +59,12 @@ body {
     text-align: left;
   }  
 
+  .img_container {
+    display: flex;
+    justify-content: center;
+
+  }
+
   ul.no-bullets {
     list-style-type: none;
     padding: 0;
@@ -91,6 +97,12 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     
+  }
+
+  img.logo {
+    text-align: center;
+    width:256px;
+    height: auto;
   }
 
   img.profile {
