@@ -88,5 +88,18 @@
     </div>
   </div>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var currentDate = new Date();
+      var currentYear = currentDate.getFullYear();
+      document.getElementById("copyright").textContent = "\u00A9 " + currentYear + " Ross Millen";
+    });
+  </script>
+
 </body>
+
+<footer>
+  <p id="copyright"></p>
+</footer>
+
 </html>
